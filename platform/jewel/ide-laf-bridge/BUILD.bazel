@@ -45,6 +45,7 @@ jvm_library(
     "//platform/core-ui",
     "//libraries/compose-foundation-desktop",
     "//platform/editor-ui-ex:editor-ex",
+    "//python:python-community-impl",
   ],
   exports = [
     "//platform/jewel/foundation",
@@ -87,6 +88,7 @@ jvm_library(
     "//plugins/textmate",
     "//plugins/textmate/plugin",
     "@lib//:io-mockk-jvm",
+    "//python:python-community-impl",
   ],
   exports = [
     "//platform/jewel/foundation",
